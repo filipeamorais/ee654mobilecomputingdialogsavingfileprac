@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android=
+    "http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/textDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="20dp"
+        android:gravity="top|start"
+        android:background="#EEEEff"
+        android:scrollbars="vertical"
+        android:inputType="textMultiLine"
+        android:text=""/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="125dip"
+            android:layout_height="wrap_content"
+            android:text="Save File" />
+        <Button
+            android:id="@+id/loadBtn"
+            android:layout_width="125dip"
+            android:layout_height="wrap_content"
+            android:text="Load File" />
+        <Button
+            android:id="@+id/clearBtn"
+            android:layout_width="125dip"
+            android:layout_height="wrap_content"
+            android:text="Clear Editor" />
+    </LinearLayout>
+</LinearLayout>
+
